@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS: Title is Matching]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Title is Matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74357" started-at="2017-08-08T10:14:57Z" finished-at="2017-08-08T10:16:12Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="59518" started-at="2017-08-08T10:14:57Z" finished-at="2017-08-08T10:15:57Z">
+      <class name="com.actitime.test.InvalidLogin">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.actitime.test.InvalidLogin@531be3c5]" name="initDriver" is-config="true" duration-ms="10" started-at="2017-08-08T18:14:57Z" finished-at="2017-08-08T18:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.InvalidLogin@531be3c5]" name="openApplication" is-config="true" duration-ms="7341" started-at="2017-08-08T18:15:10Z" finished-at="2017-08-08T18:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.test.InvalidLogin@531be3c5]" name="testInvalidLogin" duration-ms="16947" started-at="2017-08-08T18:15:17Z" finished-at="2017-08-08T18:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.InvalidLogin@531be3c5]" name="closeApplication" is-config="true" duration-ms="712" started-at="2017-08-08T18:15:34Z" finished-at="2017-08-08T18:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.ValidLogin@52af6cff]" name="openApplication" is-config="true" duration-ms="7590" started-at="2017-08-08T18:14:57Z" finished-at="2017-08-08T18:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.actitime.test.ValidLogin@52af6cff]" name="testValidLogin" duration-ms="3787" started-at="2017-08-08T18:15:05Z" finished-at="2017-08-08T18:15:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.ValidLogin@52af6cff]" name="closeApplication" is-config="true" duration-ms="969" started-at="2017-08-08T18:15:09Z" finished-at="2017-08-08T18:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.VerifyBuildVersion">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.VerifyBuildVersion@735b478]" name="openApplication" is-config="true" duration-ms="6744" started-at="2017-08-08T18:15:35Z" finished-at="2017-08-08T18:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testBuildVersion()[pri:3, instance:com.actitime.test.VerifyBuildVersion@735b478]" name="testBuildVersion" duration-ms="14667" started-at="2017-08-08T18:15:41Z" finished-at="2017-08-08T18:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.VerifyBuildVersion@735b478]" name="closeApplication" is-config="true" duration-ms="749" started-at="2017-08-08T18:15:56Z" finished-at="2017-08-08T18:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.VerifyBuildVersion -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="74357" started-at="2017-08-08T10:14:57Z" finished-at="2017-08-08T10:16:12Z">
+      <class name="com.actitime.test.InvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.InvalidLogin@6be46e8f]" name="openApplication" is-config="true" duration-ms="10283" started-at="2017-08-08T18:15:15Z" finished-at="2017-08-08T18:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.test.InvalidLogin@6be46e8f]" name="testInvalidLogin" duration-ms="20846" started-at="2017-08-08T18:15:26Z" finished-at="2017-08-08T18:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.InvalidLogin@6be46e8f]" name="closeApplication" is-config="true" duration-ms="346" started-at="2017-08-08T18:15:46Z" finished-at="2017-08-08T18:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.ValidLogin@3567135c]" name="openApplication" is-config="true" duration-ms="12095" started-at="2017-08-08T18:14:57Z" finished-at="2017-08-08T18:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.actitime.test.ValidLogin@3567135c]" name="testValidLogin" duration-ms="5143" started-at="2017-08-08T18:15:09Z" finished-at="2017-08-08T18:15:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.ValidLogin@3567135c]" name="closeApplication" is-config="true" duration-ms="869" started-at="2017-08-08T18:15:14Z" finished-at="2017-08-08T18:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.VerifyBuildVersion">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.VerifyBuildVersion@327471b5]" name="openApplication" is-config="true" duration-ms="7779" started-at="2017-08-08T18:15:47Z" finished-at="2017-08-08T18:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.26:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testBuildVersion()[pri:3, instance:com.actitime.test.VerifyBuildVersion@327471b5]" name="testBuildVersion" duration-ms="16617" started-at="2017-08-08T18:15:55Z" finished-at="2017-08-08T18:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.actitime.test.VerifyBuildVersion@327471b5]" name="closeApplication" is-config="true" duration-ms="367" started-at="2017-08-08T18:16:11Z" finished-at="2017-08-08T18:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.actitime.test.VerifyBuildVersion -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
