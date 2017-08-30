@@ -35,11 +35,3 @@ public class BasePage {
 			}
 		}
 }
-
-
-
-
-
-
-
-
